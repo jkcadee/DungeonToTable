@@ -3,13 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "ActionInput.generated.h"
+#include "Recipe.generated.h"
 
 /**
  * 
  */
+
 USTRUCT(BlueprintType)
-struct FActionInput
+struct FRecipe
 {
 	GENERATED_BODY()
 
@@ -17,29 +18,18 @@ struct FActionInput
 	FName Name;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 ActionPointCost;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 BaseProgress;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FString Description;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FName RequiredEquipment;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 RequiredLevel;
+	TArray<FString> ItemRequirementArray;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UTexture2D* Sprite;
 
-	void Activate();
+	bool CheckInventory();
 
-	FActionInput() {
+	FRecipe() {
 		Name = "None";
 		Description = "None";
-		RequiredEquipment = "None";
-		RequiredLevel = 0;
 	}
 };

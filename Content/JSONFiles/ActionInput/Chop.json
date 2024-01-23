@@ -1,0 +1,8 @@
+{
+  "type": "ActionInput",
+  "name": "Chop",
+  "pointCost": 2,
+  "baseProgress": "4",
+  "tool": "Knife",
+  "requiredLevel": 0
+}

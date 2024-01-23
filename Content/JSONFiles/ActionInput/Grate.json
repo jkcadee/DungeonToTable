@@ -1,0 +1,8 @@
+{
+  "type": "ActionInput",
+  "name": "Grate",
+  "pointCost": 2,
+  "baseProgress": "4",
+  "tool": "Grater",
+  "requiredLevel": 0
+}

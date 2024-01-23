@@ -1,0 +1,8 @@
+{
+  "type": "ActionInput",
+  "name": "Spread",
+  "pointCost": 7,
+  "baseProgress": "14",
+  "tool": "Whisk",
+  "requiredLevel": 3
+}

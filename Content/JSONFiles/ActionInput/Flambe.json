@@ -1,0 +1,8 @@
+{
+  "type": "ActionInput",
+  "name": "Flambe",
+  "pointCost": 5,
+  "baseProgress": "10",
+  "tool": "Wok",
+  "requiredLevel": 2
+}

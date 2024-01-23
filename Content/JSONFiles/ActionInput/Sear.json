@@ -1,0 +1,8 @@
+{
+  "type": "ActionInput",
+  "name": "Sear",
+  "pointCost": 2,
+  "baseProgress": "4",
+  "tool": "Wok",
+  "requiredLevel": 0
+}

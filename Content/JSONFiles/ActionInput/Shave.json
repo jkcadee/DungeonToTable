@@ -1,0 +1,8 @@
+{
+  "type": "ActionInput",
+  "name": "Shave",
+  "pointCost": 3,
+  "baseProgress": "6",
+  "tool": "Grater",
+  "requiredLevel": 1
+}

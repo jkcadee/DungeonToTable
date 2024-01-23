@@ -1,0 +1,8 @@
+{
+  "type": "ActionInput",
+  "name": "Mix",
+  "pointCost": 2,
+  "baseProgress": "4",
+  "tool": "Whisk",
+  "requiredLevel": 0
+}

@@ -1,0 +1,8 @@
+{
+  "type": "ActionInput",
+  "name": "Mince",
+  "pointCost": 3,
+  "baseProgress": "6",
+  "tool": "Knife",
+  "requiredLevel": 1
+}
