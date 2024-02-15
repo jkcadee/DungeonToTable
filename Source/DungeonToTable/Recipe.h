@@ -21,7 +21,7 @@ struct FRecipe
 	FString Description;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TArray<FString> ItemRequirementArray;
+	TMap<FString, int32> ItemRequirementArray;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UTexture2D* Sprite;
